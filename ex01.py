@@ -1,5 +1,8 @@
-a = 3
-b = 5
-c = 7
+nome = input("Insira seu nome: ")
+sobrenome = input("Insira seu sobrenome: ")
+assento = input("Qual o assento escolhido: ")
 
-print(a + b + c)
+
+#"\n" serve para pular linha
+
+print(f"Seu ticket para o filme Velozes e furiosos: {nome} {sobrenome}\nAssento escolhido: {assento}")

@@ -1,12 +1,10 @@
-#Calculo da média
+#Sistema de cadastro de turmas
 
-a = 10
-b = 8
-c = 6
-d = 4
+nomeCurso = input("Insira o nome do curso: ")
+quantAlunos = int(input("Insira a quantidade de alunos: "))
 
-soma = a + b + c + d
-
-media = soma / 4
-
-print(media)
+if quantAlunos >= 5:
+    print(f"Turma para o curso de {nomeCurso}, cadastrada com sucesso!")
+    
+else:
+    print("Numero de alunos insuficiente.")
