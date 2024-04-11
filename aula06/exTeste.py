@@ -1,3 +1,5 @@
+#imprimir os numeros pares e impares entre 100 e 125
+
 pares = 102
 impares = 101
 print("Os numeros pares")
